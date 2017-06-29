@@ -6,7 +6,7 @@ public class HelloWorld {
 	private String name;
 	private ArrayList list;
 	public HelloWorld() {
-		System.out.println("HelloWorld.HelloWorld()");
+		System.out.println("HelloWorld.HelloWorld()--Construtor");
 	}
 
 	public String getName() {
