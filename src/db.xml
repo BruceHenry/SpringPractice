@@ -6,10 +6,15 @@
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
 		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.3.xsd">
 
-	<bean id="helloworld" class="hello.HelloWorld">
-		<property name="name" value="Spring"></property>
-	</bean>
-	
 
+	<context:property-placeholder location="classpath:db.properties" />
+
+
+	<bean id="data" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+		<property name="user" value="${user}"></property>
+		<property name="password" value="${password}"></property>
+		<property name="driverClass" value="${driverClass}"></property>
+		<property name="jdbcUrl" value="${jdbcUrl}"></property>
+	</bean>
 
 </beans>
