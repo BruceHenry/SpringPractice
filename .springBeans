@@ -11,6 +11,7 @@
 		<config>src/spel.xml</config>
 		<config>src/factory.xml</config>
 		<config>src/CarFactoryBean.xml</config>
+		<config>src/annotation.xml</config>
 	</configs>
 	<autoconfigs>
 	</autoconfigs>
