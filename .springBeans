@@ -12,6 +12,7 @@
 		<config>src/factory.xml</config>
 		<config>src/CarFactoryBean.xml</config>
 		<config>src/annotation.xml</config>
+		<config>src/genericDi.xml</config>
 	</configs>
 	<autoconfigs>
 	</autoconfigs>
